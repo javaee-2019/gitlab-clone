@@ -1,7 +1,7 @@
-package com.wuhenjian.tool.gitlabcloneassistant.workflow;
+package com.shanmu2020.tool.gitlabcloneassistant.workflow;
 
 /**
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 13:01
  */
 public enum WorkFlowEnum {

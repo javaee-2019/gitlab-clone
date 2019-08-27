@@ -1,13 +1,13 @@
-package com.wuhenjian.tool.gitlabcloneassistant.service;
+package com.shanmu2020.tool.gitlabcloneassistant.service;
 
-import com.wuhenjian.tool.gitlabcloneassistant.gitlab.GitlabAuthEnum;
-import com.wuhenjian.tool.gitlabcloneassistant.gitlab.UrlToRepoEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.gitlab.GitlabAuthEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.gitlab.UrlToRepoEnum;
 
 import java.util.Objects;
 import java.util.Scanner;
 
 /**
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 11:55
  */
 public class InputService {

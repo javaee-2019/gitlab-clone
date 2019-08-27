@@ -1,7 +1,7 @@
-package com.wuhenjian.tool.gitlabcloneassistant.cmd;
+package com.shanmu2020.tool.gitlabcloneassistant.cmd;
 
-import com.wuhenjian.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
-import com.wuhenjian.tool.gitlabcloneassistant.workflow.exception.WorkFlowException;
+import com.shanmu2020.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.workflow.exception.WorkFlowException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 
 /**
  * bat脚本运行工具类
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 0:12
  */
 public class CmdUtil {

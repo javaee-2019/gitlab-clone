@@ -1,17 +1,17 @@
-package com.wuhenjian.tool.gitlabcloneassistant;
+package com.shanmu2020.tool.gitlabcloneassistant;
 
-import com.wuhenjian.tool.gitlabcloneassistant.gitlab.GitlabApiUtil;
-import com.wuhenjian.tool.gitlabcloneassistant.gitlab.GitlabAuthEnum;
-import com.wuhenjian.tool.gitlabcloneassistant.gitlab.UrlToRepoEnum;
-import com.wuhenjian.tool.gitlabcloneassistant.service.CmdService;
-import com.wuhenjian.tool.gitlabcloneassistant.service.InputService;
-import com.wuhenjian.tool.gitlabcloneassistant.util.CommonUtil;
+import com.shanmu2020.tool.gitlabcloneassistant.gitlab.GitlabApiUtil;
+import com.shanmu2020.tool.gitlabcloneassistant.gitlab.GitlabAuthEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.gitlab.UrlToRepoEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.service.CmdService;
+import com.shanmu2020.tool.gitlabcloneassistant.service.InputService;
+import com.shanmu2020.tool.gitlabcloneassistant.util.CommonUtil;
 import org.gitlab4j.api.GitLabApi;
 
 import java.util.List;
 
 /**
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 0:04
  */
 public class StartMain {
@@ -22,8 +22,8 @@ public class StartMain {
 		// 输入业务对象
 		InputService inputService = new InputService();
 		// 获取连接URL，GITLAB_URL
-//		String gitlabUrl = inputService.getGitlabUrl();
-		String gitlabUrl = "https://git.sensin-tech.cn";
+		String gitlabUrl = inputService.getGitlabUrl();
+//		String gitlabUrl = "https://git.sensin-tech.cn";
 		// 获取认证类型，AUTHTYPE
 		GitlabAuthEnum authType = inputService.getAuthType();
 		// 获取认证参数，AUTH_PARAMS

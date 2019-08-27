@@ -1,4 +1,4 @@
-package com.wuhenjian.tool.gitlabcloneassistant.util;
+package com.shanmu2020.tool.gitlabcloneassistant.util;
 
 import java.util.Collection;
 import java.util.concurrent.SynchronousQueue;
@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 12:48
  */
 public class CommonUtil {

@@ -1,12 +1,12 @@
-package com.wuhenjian.tool.gitlabcloneassistant.workflow.exception;
+package com.shanmu2020.tool.gitlabcloneassistant.workflow.exception;
 
-import com.wuhenjian.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
  * 业务流程异常
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 13:01
  */
 @EqualsAndHashCode(callSuper = true)

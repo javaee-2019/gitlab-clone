@@ -1,7 +1,7 @@
-package com.wuhenjian.tool.gitlabcloneassistant.service;
+package com.shanmu2020.tool.gitlabcloneassistant.service;
 
-import com.wuhenjian.tool.gitlabcloneassistant.cmd.CmdUtil;
-import com.wuhenjian.tool.gitlabcloneassistant.util.CommonUtil;
+import com.shanmu2020.tool.gitlabcloneassistant.cmd.CmdUtil;
+import com.shanmu2020.tool.gitlabcloneassistant.util.CommonUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 /**
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 20:50
  */
 public class CmdService {

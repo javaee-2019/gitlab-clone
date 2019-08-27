@@ -1,12 +1,11 @@
-package com.wuhenjian.tool.gitlabcloneassistant.gitlab;
+package com.shanmu2020.tool.gitlabcloneassistant.gitlab;
 
-import com.wuhenjian.tool.gitlabcloneassistant.workflow.exception.WorkFlowException;
-import com.wuhenjian.tool.gitlabcloneassistant.util.CommonUtil;
-import com.wuhenjian.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.util.CommonUtil;
+import com.shanmu2020.tool.gitlabcloneassistant.workflow.WorkFlowEnum;
+import com.shanmu2020.tool.gitlabcloneassistant.workflow.exception.WorkFlowException;
 import org.gitlab4j.api.GitLabApi;
 import org.gitlab4j.api.GitLabApiException;
 import org.gitlab4j.api.ProjectApi;
-import org.gitlab4j.api.models.Group;
 import org.gitlab4j.api.models.Project;
 
 import java.util.List;
@@ -15,7 +14,7 @@ import java.util.stream.Collectors;
 
 /**
  * gitlab-api工具
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 1:04
  */
 public class GitlabApiUtil {
@@ -34,7 +33,7 @@ public class GitlabApiUtil {
 				if (auths == null || auths.length != 1) {
 					throw WorkFlowException.build("认证参数错误，TOKEN认证时，认证参数只允许输入一个", WorkFlowEnum.AUTHTYPE);
 				}
-				gitLabApi = new GitLabApi(GitLabApi.ApiVersion.V3, url, auths[0]);
+				gitLabApi = new GitLabApi(GitLabApi.ApiVersion.V4, url, auths[0]);
 				break;
 			case USERNAME_PASSWORD:
 				if (auths == null || auths.length != 2) {

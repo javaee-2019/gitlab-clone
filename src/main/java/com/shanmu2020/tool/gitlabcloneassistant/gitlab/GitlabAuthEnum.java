@@ -1,4 +1,4 @@
-package com.wuhenjian.tool.gitlabcloneassistant.gitlab;
+package com.shanmu2020.tool.gitlabcloneassistant.gitlab;
 
 import lombok.Getter;
 
@@ -6,7 +6,7 @@ import java.util.Objects;
 
 /**
  * Gitlab认证类型
- * @author 打水怪
+ * @author shanmu2020
  * @date 2019/1/6 1:08
  */
 @Getter

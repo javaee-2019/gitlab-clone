@@ -41,7 +41,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.wuhenjian.tool.gitlabcloneassistant.StartMain</mainClass>
+                            <mainClass>com.shanmu2020.tool.gitlabcloneassistant.StartMain</mainClass>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
